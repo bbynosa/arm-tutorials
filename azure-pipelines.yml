@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: aws-todoistclonedev-useast1-ubuntu
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
