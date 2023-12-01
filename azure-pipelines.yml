@@ -18,7 +18,7 @@ steps:
     resourceGroupName: 'myResourceGroup'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: "https://raw.githubusercontent.com/bbynosa/arm-tutorials/main/create_web_app/azuredeploy.json?token=GHSAT0AAAAAAB6K73ZAQ7X573FCZSZ4JKKUZLJ52PA"
+    csmFileLink: "https://cs1100320030ed0305d.blob.core.windows.net/azure-deploy/azuredeploy.json?sp=r&st=2023-12-01T14:48:39Z&se=2023-12-01T22:48:39Z&spr=https&sv=2022-11-02&sr=b&sig=AhWlT4dJViAKM4BE5Ermfr0ltSxv80XZ7Gh7FLZ8b7o%3D"
     overrideParameters: '-projectName armTutorials'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
